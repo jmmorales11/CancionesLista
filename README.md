@@ -18,13 +18,13 @@ Este es un servicio RESTful para gestionar canciones y listas de reproducción. 
   "artista": "Ramon",
   "genero": "Pop"
 }
+```
 ## Eliminar una Canción
 
 - **Método:** `DELETE`
 - **Endpoint:** `http://localhost:8002/api/canciones/{id}`
   - **Ejemplo:** `http://localhost:8002/api/canciones/1`
 
-Esta operación elimina una canción de la base de datos usando el `id` proporcionado en la URL.
 
 ---
 
@@ -41,6 +41,7 @@ Esta operación elimina una canción de la base de datos usando el `id` proporci
   "artista": "Nuevo Artista",
   "genero": "Nuevo Género"
 }
+```
 
 ## CRUD de Listas de Reproducción
 
@@ -57,6 +58,7 @@ Esta operación elimina una canción de la base de datos usando el `id` proporci
   "nombreLista": "Lista Favorita",
   "descripcionLista": "Esta es una lista de reproducción con mis canciones favoritas."
 }
+```
 ## Eliminar una Lista de Reproducción
 
 - **Método:** `DELETE`
@@ -90,6 +92,7 @@ En la URL, debes incluir el `id` de la lista de reproducción a la que quieres a
   "artista": "Ramon",
   "genero": "Pop"
 }
+```
 ### Listar las canciones de una lista de reproducción
 - **Método:** `GET`
 - **Endpoint:** `http://localhost:8003/api/lista/lista-canciones/{idLista}`
